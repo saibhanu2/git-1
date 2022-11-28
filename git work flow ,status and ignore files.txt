@@ -1,0 +1,44 @@
+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-------------git work flow------------
+
+working directory(ADD)>>>staging area(commit)>>>repository .git folder(push)>>>remote GitHub
+add>>commit>>push
+
+syn:
+git clone link 
+git add file name
+git commit -m "comment"
+git push origin master
+
+syn for new rep:
+git init 
+git add .
+git commit -m "comment"
+git remote add link
+git push -u origin
+
+.master >>it is branch ,we will automatically get branch when we get clone the code
+.origin >>it is defalut name 
+
+
+Basic terms :
+>clone :nothing but copy .getting code from github
+>add :adding or doing changes in code
+>commit:information about the work done by the person like chnages in code
+>tracking/untracking : .git folder will track information
+
+--status life cycle---------
+
+.first untracked lo untay
+.git add chesi nappudu stage loki veltadi
+.edit chasetay modified itadi
+.stage loki vellaka edit chasetay malli untrack loki vastadi
+
+---ignoring file (.gitignore)---------
+.manaki kevalam konni files kavali annaoudu idi use avutadi
+.first manam .gitignore file create cheyyali
+.next e files itay ignore cheyyalo ah files names rayali
+.tarwatha git status choodali
+!> idi manaki 100 js files unnay anuko only one js file matram kavali annapudu use itadi .> !main.js
+/> idi folder ni ignore cheyyaniki use itadi.> sai/
+*> idi anni files ni ignore cheyyaniki use itadi. > *test.txt
+\> idi directory lo and bayata same txt untay directory matram ignore cheyyalantay use itadi

@@ -1,0 +1,15 @@
+-------git status vs git diff--------------
+git status : 
+.idianedi manaki files status chhopistadi
+
+git diff :
+
+.idi manaki files lo m ina rasina content ni  change chasetay choopistadi 
+.and idi staged status ni kooda choopistadi
+
+
+----git log------------
+.idi mankaki code ni clone chesukunapudu entha mandi m chesaro tlsukovadaniki
+.git log -p > idi every 2 comments ni choodaniki
+.git log -4 > last four choodaniki
+.git log --pretty=oneline >single line lo choodadaniki

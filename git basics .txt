@@ -1,0 +1,21 @@
+------------GIT------------------
+>git developed by Linus Torvalds
+>meaning of git is unpleasant person
+>it is open source 
+>it is largr and active community
+>used to handle complex projects
+
+.Repository >>it s a space where our project resides
+>repository will be there in folder,github,online host
+ 
+------------GitHub---------------------
+>used to ctreate or host repository
+----------commands-----------
+1.git config --
+ *it is a tool  
+   --global>present in .gitconfig folder consists personal information like username etc
+   --system>user related information
+   --local >project reated information
+.git config --global user.name "name"
+.git config --global user.email "email"
+.git help name   
